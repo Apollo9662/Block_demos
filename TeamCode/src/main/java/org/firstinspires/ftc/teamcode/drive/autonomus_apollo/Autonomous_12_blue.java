@@ -86,14 +86,14 @@ public class Autonomous_12_blue extends LinearOpMode {
 
         /// איסוף 1
         drive.followTrajectory(drive.trajectoryBuilder(drive.getPoseEstimate())
-                .lineToLinearHeading(new Pose2d(5, 30, Math.toRadians(90)))
+                .lineToLinearHeading(new Pose2d(5, 25, Math.toRadians(90)))
                 .build());
 
         intakeMotor.setPower(-0.9);
         transfer_motor.setPower(0.8);
 
         drive.followTrajectory(drive.trajectoryBuilder(drive.getPoseEstimate())
-                .lineToLinearHeading(new Pose2d(12, 65, Math.toRadians(90)))
+                .lineToLinearHeading(new Pose2d(20, 65, Math.toRadians(90)))
                 .build());
 
         intakeMotor.setPower(0);
@@ -115,7 +115,7 @@ public class Autonomous_12_blue extends LinearOpMode {
         transfer_motor.setPower(0.8);
 
         drive.followTrajectory(drive.trajectoryBuilder(drive.getPoseEstimate())
-                .lineToLinearHeading(new Pose2d(-19, 65, Math.toRadians(90)))
+                .lineToLinearHeading(new Pose2d(-19, 72, Math.toRadians(90)))
                 .build());
 
         intakeMotor.setPower(0);
@@ -146,9 +146,11 @@ public class Autonomous_12_blue extends LinearOpMode {
                 .lineToLinearHeading(new Pose2d(-40, 70, Math.toRadians(90)))
                 .build());
 
+        intakeMotor.setPower(0);
+        transfer_motor.setPower(0);
         // מעבר
         drive.followTrajectory(drive.trajectoryBuilder(drive.getPoseEstimate())
-                .lineToLinearHeading(new Pose2d(75, -10, Math.toRadians(65)))
+                .lineToLinearHeading(new Pose2d(65, 0, Math.toRadians(75)))
                 .build());
 
         shoot();
