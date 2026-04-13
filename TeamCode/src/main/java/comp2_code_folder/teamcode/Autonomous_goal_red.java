@@ -1,8 +1,8 @@
 package comp2_code_folder.teamcode;
 
-import org.firstinspires.ftc.teamcode.drive.opmode.DriveConstants;
-import org.firstinspires.ftc.teamcode.drive.opmode.PoseStorage;
-import org.firstinspires.ftc.teamcode.drive.opmode.SampleMecanumDrive;
+import comp3_code_folder.org.firstinspires.ftc.teamcode.drive.opmode.DriveConstants;
+import comp3_code_folder.org.firstinspires.ftc.teamcode.drive.opmode.PoseStorage;
+import comp3_code_folder.org.firstinspires.ftc.teamcode.drive.opmode.SampleMecanumDrive;
 
 import com.acmerobotics.roadrunner.geometry.Pose2d;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;

@@ -6,7 +6,6 @@ import com.acmerobotics.roadrunner.util.Angle;
 import com.qualcomm.hardware.limelightvision.LLResult;
 import com.qualcomm.hardware.limelightvision.Limelight3A;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
@@ -14,8 +13,8 @@ import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 import org.firstinspires.ftc.robotcore.external.navigation.Pose3D;
-import org.firstinspires.ftc.teamcode.drive.opmode.PoseStorage;
-import org.firstinspires.ftc.teamcode.drive.opmode.SampleMecanumDrive;
+import comp3_code_folder.org.firstinspires.ftc.teamcode.drive.opmode.PoseStorage;
+import comp3_code_folder.org.firstinspires.ftc.teamcode.drive.opmode.SampleMecanumDrive;
 
 @Config
 //@TeleOp(name = "Competition_2026_limelight", group = "drive")

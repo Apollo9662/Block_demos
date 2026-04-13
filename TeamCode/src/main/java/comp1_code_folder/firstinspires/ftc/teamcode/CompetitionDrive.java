@@ -5,14 +5,13 @@ import com.acmerobotics.dashboard.config.Config;
 import com.acmerobotics.roadrunner.geometry.Pose2d;
 import com.acmerobotics.roadrunner.util.Angle;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
-import org.firstinspires.ftc.teamcode.drive.opmode.PoseStorage;
-import org.firstinspires.ftc.teamcode.drive.opmode.SampleMecanumDrive;
+import comp3_code_folder.org.firstinspires.ftc.teamcode.drive.opmode.PoseStorage;
+import comp3_code_folder.org.firstinspires.ftc.teamcode.drive.opmode.SampleMecanumDrive;
 
 
 @Config
